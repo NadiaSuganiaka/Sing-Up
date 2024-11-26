@@ -1,0 +1,159 @@
+body {
+    background-image: linear-gradient(to bottom right, #8C17C2,  #973FC0, 
+    #AC5ED0, #BD78DE, #CF92EB, #E7B6FE, #FFFFFF);
+    min-height: 100vh;
+}
+
+#form {
+    position: relative;
+    z-index: 10; 
+    margin: auto;
+    height: 632px;
+    width: 485px;
+    background-color: #FFFFFF;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#oll{
+    height: auto;
+    width: auto;
+}
+
+.text {
+    width: 368px;
+    text-align: left;
+    margin-bottom: 6px; 
+}
+
+#singUp {
+    width: 368px;
+    text-align: center;
+}
+
+.singUpOther {
+    color: #72DAC0;
+    text-decoration: underline;
+}
+
+input {
+    height: 60px;
+    width: 318px;
+    border: 2px solid #727272;
+    border-radius: 40px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+#email{
+    background: url(Vector.svg) no-repeat center left;
+
+}
+
+#number{
+    background: url(UK.svg) no-repeat center left;
+
+}
+
+#password{
+    background: url(Group.svg) no-repeat center left;
+
+}
+
+#sing {
+    font-size: 48px;
+    margin-top: 24px; 
+    margin-bottom: 0px;
+
+}
+
+button {
+    height: 60px;
+    width: 368px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #BE79DE;
+    border: 2px solid #727272;
+    color: white;
+    font-size: 16px;
+}
+
+#Google {
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+}
+
+#logIn {
+    margin-top: 32px;
+}
+#Google {
+    margin-bottom: 48px;
+
+}
+
+img {
+    position: absolute;
+    z-index: 1;  
+    animation: randomMove 25s infinite alternate ease-in-out;
+    will-change: transform;
+}
+
+.ellipse:nth-child(1) {
+    top: 10%;
+    left: 20%;
+    animation-delay: 0s;
+}
+.ellipse:nth-child(2) {
+    top: 30%;
+    left: 50%;
+    animation-delay: 1s;
+}
+.ellipse:nth-child(3) {
+    top: 60%;
+    left: 10%;
+    animation-delay: 1.8s;
+}
+.ellipse:nth-child(4) {
+    top: 80%;
+    left: 70%;
+    animation-delay: 2s;
+}
+.ellipse:nth-child(5) {
+    top: 0%;
+    left: 30%;
+    animation-delay: 1s;
+}
+.ellipse:nth-child(6) {
+    top: 50%;
+    left: 20%;
+    animation-delay: 0.5s;
+}
+.ellipse:nth-child(7) {
+    top: 0%;
+    left: 60%;
+    animation-delay: 1.5s;
+}
+
+@keyframes randomMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(200px, 150px);
+    }
+    50% {
+        transform: translate(-250px, -200px);
+    }
+    75% {
+        transform: translate(150px, -100px);
+    }
+    100% {
+        transform: translate(-150px, 100px);
+    }
+}
+
+
